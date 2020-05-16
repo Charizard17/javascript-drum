@@ -1,0 +1,43 @@
+body {
+  background-image: url("./audiences-crowd.jpg");
+  background-size: 100%;
+}
+
+.container {
+  display: flexbox;
+  margin-top: 22%;
+  margin-left: 24%;
+  background-image: none;
+}
+
+.key {
+  text-transform: uppercase;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+  text-shadow: 0 0 5px black;
+  padding: 10px 5px;
+  margin-right: 5px;
+  transition: all 0.07s;
+}
+
+div > span {
+  color: yellow;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
